@@ -11,7 +11,7 @@ def to_back(x):
 x_viceversa_array = to_back(str(x));
 for i in range(cnt):
     x_array = list(map(int, str(x)));
-    if int(x_array[i]) == int(x_viceversa_array[i]):
+    if x_array[i] == int(x_viceversa_array[i]):
         continue;
     else:
         bool = False;
